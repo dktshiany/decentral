@@ -1,10 +1,12 @@
-import express from 'express';
-import cors from 'cors';
+//
+const express = require("express");
+const cors = require("cors");
+const path = require('path');
+const request = require("request");
 
 const app = express();
 const router = express.Router();
-const path = require('path');
-const request = require("request");
+
 const port = 3000;
 
 // Epress Middleware
