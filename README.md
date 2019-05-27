@@ -8,16 +8,16 @@ The app code is available at: https://github.com/dktshiany/decentral
 ## Instructions on setup / running the application:
 Make sure node, npm and angular cli are installed in your system, then run the following commands:
 
--- command list start --
-git clone https://github.com/dktshiany/decentral.git decentral_app
-cd decentral_app
-npm install
-cd frontend
-npm install
-ng build --prod=true
-cd ..
-npm start
--- command list end --
+-- command list start --  
+git clone https://github.com/dktshiany/decentral.git decentral_app  
+cd decentral_app  
+npm install  
+cd frontend  
+npm install  
+ng build --prod=true  
+cd ..  
+npm start  
+-- command list end --  
 
 After that, open the browser on your system at : http://localhost:3000/ 
 
