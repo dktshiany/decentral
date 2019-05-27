@@ -5,7 +5,7 @@ A working version of the app is installed in Amazon Lightsail at: http://18.206.
 The app code is available at: https://github.com/dktshiany/decentral 
 
 
-## Instructions on setup / running the application:
+## Instructions on setup / running the application
 Make sure node, npm and angular cli are installed in your system, then run the following commands:
 
 -- command list start --  
@@ -16,30 +16,31 @@ cd frontend
 npm install  
 ng build --prod=true  
 cd ..  
-npm start  
 -- command list end --  
+
+## Instructions on running the application
+Run the following command (from decentral_app):  
+- npm start  
 
 After that, open the browser on your system at : http://localhost:3000/ 
 
 
 ## Testing the app
-
-Run the following command:  
+Run the following command (from decentral_app):  
 - npm run test  
 
 
-## Postman service test
-Rnu the following command:  
+## Postman test
+Rnu the following command  (from decentral_app):  
 - npm run dev  
 
-Then test in 'Postman' with the folowing end points:  
+Then use 'Postman' app to test the folowing end points:  
 - http://localhost:3000/marketapi  
 - http://localhost:3000/test_route  
 - http://localhost:3000/  
 
 
-
-## Chalenge Goal:
+## Chalenge Goal
 - The goal of this challenge is to simulate real work at Decentral. During a typical day, a
 Front End Developer is expected to:
 - Interact with various API’s
@@ -49,7 +50,7 @@ Front End Developer is expected to:
 - Write tests for all their work
 
 
-## Challenge:
+## Challenge
 - Using the public Bittrex API, create a web application using your favourite framework that
 displays the market summary for all supported trading pairs.
 - Allow the user to search for a particular trading pair. Eg. BTC-LTC
