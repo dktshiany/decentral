@@ -40,7 +40,10 @@ router.route('/marketapi').get((req, res) => {
       }
       console.log('Data OK');
       
-	    var marketResponse = JSON.parse(body);
+      var marketResponse = JSON.parse(body);
+      
+      // Calculate gain and format dates
+      //
 	    marketResponse.result.forEach(function(entry) {		  
       
         entry.GainInPercentage = 0;
@@ -59,9 +62,10 @@ router.route('/marketapi').get((req, res) => {
             appendLeadingZeroes(current_datetime.getHours()) + ":" + 
             appendLeadingZeroes(current_datetime.getMinutes()) + ":" + 
             appendLeadingZeroes(current_datetime.getSeconds());
-
       });    
 
+      // Custom sort only when sort request is from 'Gain' column
+      //
       if (req.query.act == 'GainInPercentage'){
         if (req.query.dir == 'asc'){
           marketResponse.result.sort(function(entry1, entry2) {
