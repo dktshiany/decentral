@@ -5,7 +5,7 @@ A working version of the app is installed in Amazon Lightsail at: http://18.206.
 The app code is available at: https://github.com/dktshiany/decentral 
 
 
-## Instructions on setup / running the application
+## Instructions on setup the application
 Make sure node, npm and angular cli are installed in your system, then run the following commands:
 
 -- command list start --  
@@ -20,18 +20,26 @@ cd ..
 
 ## Instructions on running the application
 Run the following command (from decentral_app):  
+- cd decentral_app  
 - npm start  
 
 After that, open the browser on your system at : http://localhost:3000/ 
 
+- Enter a trading pair in the 'Search trading pair' field  search for a particular trading pair
+- Click on any trading pair row to see trading details
+- Click on any column to sort data on client side
+- Click on 'Gain (%)' column to sort the pairs by percentage gain / loss per day on server side
+
 
 ## Testing the app
-Run the following command (from decentral_app):  
+Run the following command (from decentral_app):   
+- cd decentral_app  
 - npm run test  
 
 
 ## Postman test
-Rnu the following command  (from decentral_app):  
+Rnu the following command  (from decentral_app):   
+- cd decentral_app  
 - npm run dev  
 
 Then use 'Postman' app to test the folowing end points:  
