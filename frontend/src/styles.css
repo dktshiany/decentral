@@ -35,6 +35,10 @@ mat-form-field{
   margin-left:10px; 
 }
 
+table .mat-elevation-z8{
+  cursor: pointer;
+  }
+
 .mdrawer{
 margin:5px;
 }
@@ -42,6 +46,15 @@ margin:5px;
 .element {
 position: relative;
 }
+
+.element-row {
+  cursor: pointer;
+  }
+
+  .element-row:hover {
+    background: #f5f5f5;
+    }
+    
 
 .element:not(.expanded) {
 cursor: pointer;

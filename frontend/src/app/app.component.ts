@@ -107,12 +107,11 @@ export class AppComponent implements AfterViewInit, OnInit {
     this.sortActive = sort.active;
   }
 
-
   // Get record to display in Trading pair detail
   // when a row is pressed
   // 
   getRecord(mDrawer, tDrawer, rec) {
-    console.log(rec);
+    //console.log(rec);
 
     this.testMap = new Map([
       ['MarketName    ', rec.MarketName],
