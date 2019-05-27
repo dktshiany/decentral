@@ -22,11 +22,20 @@ npm start
 After that, open the browser on your system at : http://localhost:3000/ 
 
 
+## Testing the app
+
+Rnu the following command:  
+- npm run dev  
+
+Then test in 'Postman' with the folowing end points:  
+- http://localhost:3000/marketapi  
+- http://localhost:3000/test_route  
+- http://localhost:3000/  
 
 
 
-Decentral Front End Challenge
-## Goal:
+
+## Chalenge Goal:
 - The goal of this challenge is to simulate real work at Decentral. During a typical day, a
 Front End Developer is expected to:
 - Interact with various API’s

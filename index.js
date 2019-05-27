@@ -104,3 +104,8 @@ router.route('/').get((req, res) => {
 
 // Start server
 app.listen(port, () => console.log('Express server running on port ' + port));
+
+// Export app for testing
+//export default app;
+
+module.exports = app
