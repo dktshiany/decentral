@@ -24,6 +24,11 @@ After that, open the browser on your system at : http://localhost:3000/
 
 ## Testing the app
 
+Run the following command:  
+- npm run test  
+
+
+## Postman service test
 Rnu the following command:  
 - npm run dev  
 
@@ -31,7 +36,6 @@ Then test in 'Postman' with the folowing end points:
 - http://localhost:3000/marketapi  
 - http://localhost:3000/test_route  
 - http://localhost:3000/  
-
 
 
 
